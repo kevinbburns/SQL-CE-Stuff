@@ -1,4 +1,17 @@
--- Script Date: 11/29/2015 1:23 PM  - ErikEJ.SqlCeScripting version 3.5.2.42
+CREATE TABLE [Countries] (
+  [Id] int NOT NULL
+, [ISO] nvarchar(2) NOT NULL
+, [Name] nvarchar(200) NOT NULL
+, [NiceName] nvarchar(200) NOT NULL
+, [ISO3] nvarchar(3) NULL
+, [NumCode] int NULL
+, [PhoneCode] int NULL
+);
+GO
+ALTER TABLE [Countries] ADD CONSTRAINT [PK_Countries] PRIMARY KEY ([Id]);
+GO
+
+
 INSERT INTO [Countries] ([Id],[ISO],[Name],[NiceName],[ISO3],[NumCode],[PhoneCode]) VALUES (1,N'AF',N'AFGHANISTAN',N'Afghanistan',N'AFG',4,93);
 GO
 INSERT INTO [Countries] ([Id],[ISO],[Name],[NiceName],[ISO3],[NumCode],[PhoneCode]) VALUES (2,N'AL',N'ALBANIA',N'Albania',N'ALB',8,355);
