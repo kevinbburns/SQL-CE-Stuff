@@ -1,0 +1,112 @@
+CREATE TABLE [States] (
+  [StateCode] nvarchar(2) NOT NULL
+, [StateName] nvarchar(250) NOT NULL
+);
+GO
+ALTER TABLE [States] ADD CONSTRAINT [PK_StateCode] PRIMARY KEY ([StateCode]);
+GO
+
+
+
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'AK',N'Alaska');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'AL',N'Alabama');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'AR',N'Arkansas');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'AZ',N'Arizona');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'CA',N'California');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'CO',N'Colorado');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'CT',N'Connecticut');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'DC',N'District of Columbia');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'DE',N'Delaware');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'FL',N'Florida');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'GA',N'Georgia');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'HI',N'Hawaii');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'IA',N'Iowa');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'ID',N'Idaho');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'IL',N'Illinois');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'IN',N'Indiana');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'KS',N'Kansas');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'KY',N'Kentucky');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'LA',N'Louisiana');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'MA',N'Massachusetts');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'MD',N'Maryland');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'ME',N'Maine');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'MI',N'Michigan');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'MN',N'Minnesota');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'MO',N'Missouri');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'MS',N'Mississippi');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'MT',N'Montana');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'NC',N'North Carolina');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'ND',N'North Dakota');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'NE',N'Nebraska');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'NH',N'New Hampshire');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'NJ',N'New Jersey');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'NM',N'New Mexico');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'NV',N'Nevada');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'NY',N'New York');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'OH',N'Ohio');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'OK',N'Oklahoma');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'OR',N'Oregon');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'PA',N'Pennsylvania');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'RI',N'Rhode Island');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'SC',N'South Carolina');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'SD',N'South Dakota');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'TN',N'Tennessee');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'TX',N'Texas');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'UT',N'Utah');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'VA',N'Virginia');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'VT',N'Vermont');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'WA',N'Washington');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'WI',N'Wisconsin');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'WV',N'West Virginia');
+GO
+INSERT INTO [States] ([StateCode],[StateName]) VALUES (N'WY',N'Wyoming');
+GO
